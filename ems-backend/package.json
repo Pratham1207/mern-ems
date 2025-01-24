@@ -1,0 +1,21 @@
+{
+  "name": "ems-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@graphql-tools/schema": "^10.0.8",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.9.0",
+    "mongoose": "^8.7.2"
+  }
+}
